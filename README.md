@@ -9,24 +9,24 @@ The MySQL server should have a database created, and the credentials should be m
 ## Getting Started
 
 1. Clone the repository:
-`Copy codegit clone https://github.com/your-username/your-repo.git`
+`git clone https://github.com/your-username/your-repo.git`
 
 2. Install Composer dependencies:
-`Copy codecomposer install`
+`composer install`
 
 3. Install npm packages:
-`Copy codenpm install`
+`npm install`
 
 4. Start the development server:
-`Copy codephp artisan serve`
+`php artisan serve`
 
 5. Run the database migrations to create the necessary tables:
-`Copy codephp artisan migrate`
+`php artisan migrate`
 
 Note: Assuming there exists a MySQL database with the credentials specified in the .env file, this command will create the tables and connect the application server to the database.
 
 6. Build the assets using Laravel Mix:
-`Copy codenpm run dev`
+`npm run dev`
 
 Note: You might be prompted to run npm run dev again after the first time.
 
