@@ -31,3 +31,7 @@ Note: Assuming there exists a MySQL database with the credentials specified in t
 Note: You might be prompted to run npm run dev again after the first time.
 
 After following these steps, your application should be up and running, and you can access it in your web browser at the URL provided by the php artisan serve command (usually http://localhost:8000) and add `item` at the end to view the shopping list, so your home page can be accessed through http://127.0.0.1:8000/item .
+
+### NB.
+
+A unit test was created in the test/Unit/ShoppingListTest.php that test (the shopping list exists and can add items, the data in the shopping list is persistent, and the items can be deleted, and ticked) The Unit Test can be run by `php atisan test`.
